@@ -1,48 +1,30 @@
 TOP TEN WORDS:
                 WORD      COUNT      FILES
-                this          8          3
-                  is          3          2
-                   a          2          2
-                file          2          2
-                 for          2          2
-                  it          2          1
-                ansi          1          1
-             ansicpg          1          1
-                blue          1          1
-       cocoaplatform          1          1
+                   a          1          1
+                file          1          1
+                 for          1          1
+                  is          1          1
+                  sg          1          1
+                test          1          1
+                this          1          1
 
 
 WORDS IN ALL FILES:
+                   a
+                file
+                 for
+                  is
+                  sg
+                test
+                this
 
 
 WORDS THAT APPEAR IN ONLY ONE FILE:
                 WORD       FILE
-                ansi          1
-             ansicpg          1
-                blue          1
-       cocoaplatform          1
-            cocoartf          1
-    cocoatextscaling          1
-            colortbl          1
-    expandedcolortbl          1
-             fonttbl          1
-               green          1
-               margl          1
-               margr          1
-                 red          1
-                 rtf          1
-               viewh          1
-            viewkind          1
-               vieww          1
-                  sg          2
-                test          2
-                  go          3
-                  it          3
-                long          3
-                 not          3
-                  on          3
-                   s          3
-               short          3
-             testing          3
-                 use          3
-                will          3
+                   a          1
+                file          1
+                 for          1
+                  is          1
+                  sg          1
+                test          1
+                this          1

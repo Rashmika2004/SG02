@@ -118,12 +118,14 @@ def process_files(file_paths):
     return all_words, word_stats
 
 def display_file_summary(file_paths, all_words):
-    print("\nFilename".rjust(25) + "  Total Words  Distinct Words")
-    print("-" * 60)
+    file_max_length = max(len(f) for f in file_paths)
+    print(file_max_length)
+    print("\nFilename".ljust(file_max_length) + "Total Words".rjust(file_max_length*2) + "Distinct Words".rjust(file_max_length*2))
+    print("-" * file_max_length*5)
     for file in file_paths:
         total = len(all_words[file])
         distinct = len(set(all_words[file]))
-        print(file.rjust(25) + f"  {str(total).rjust(11)}  {str(distinct).rjust(14)}")
+        print(f"{str(file).ljust(file_max_length)}{str(total).rjust(file_max_length*2)}{str(distinct).rjust(file_max_length*2)}")
     print()
 
 def is_valid_word(word):

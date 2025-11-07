@@ -1,34 +1,7 @@
-a 2.1.3; 3.1.3.
-ansi 1.1.2.
-ansicpg 1.1.3.
-blue 1.3.4.
-cocoaplatform 1.2.2.
-cocoartf 1.1.4.
-cocoatextscaling 1.2.1.
-colortbl 1.3.1.
-expandedcolortbl 1.4.1.
-file 2.1.5; 3.1.5.
-fonttbl 1.2.3.
-for 2.1.6; 3.5.5.
-go 3.3.4.
-green 1.3.3.
-is 2.1.2; 3.1.2; 3.5.4.
-it 3.3.1; 3.5.1.
-long 3.3.6.
-margl 1.5.1.
-margr 1.5.2.
-not 3.3.3.
-on 3.3.5.
-red 1.3.2.
-rtf 1.1.1.
-s 3.5.2.
-sg 2.1.7.
-short 3.1.4.
-test 2.1.4.
-testing 3.5.6.
-this 2.1.1; 2.2.1; 2.2.2; 2.2.3; 2.3.1; 3.1.1; 4.1.1; 4.2.1.
-use 3.5.3.
-viewh 1.5.4.
-viewkind 1.5.5.
-vieww 1.5.3.
-will 3.3.2.
+a 1.1.3.
+file 1.1.5.
+for 1.1.6.
+is 1.1.2.
+sg 1.1.7.
+test 1.1.4.
+this 1.1.1.
