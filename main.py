@@ -294,10 +294,14 @@ def display_summary(file_paths, word_stats, searched_words):
     print("\nAll reports written successfully. Program complete.")
     
 #----------- MAIN PROGRAM EXECUTION --------------
-programexplaining()
-file_paths = inputtextfile()
-all_words, word_stats = process_files(file_paths)
-display_file_summary(file_paths, all_words)
-searched_words = search_words_loop(file_paths, word_stats)
-display_summary(file_paths, word_stats, searched_words)
+def main():
+    programexplaining()
+    file_paths = inputtextfile()
+    all_words, word_stats = process_files(file_paths)
+    display_file_summary(file_paths, all_words)
+    searched_words = search_words_loop(file_paths, word_stats)
+    display_summary(file_paths, word_stats, searched_words)
+    
+if __name__ == "__main__":
+    main()
 
